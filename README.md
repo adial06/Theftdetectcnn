@@ -6,12 +6,12 @@ Theft detection is a challenging task, especially when analyzing large volumes o
 
 # Features
 
-- Frame-Based Analysis: Processes individual frames extracted from videos for efficient computation and focused detection.
-- Binary Classification: Accurately identifies frames as either Theft or No Theft.
-- Optimized CNN Architecture: Utilizes convolutional layers to extract visual features and classify frames effectively.
-- Preprocessing Workflow: Includes frame extraction, resizing, normalization, and labeling to prepare data for training.
-- Performance Evaluation: Assesses accuracy, precision, recall, and F1-score to ensure reliable detection.
-- Alert System: Implements real-time email and SMS alerts to notify relevant stakeholders in case of theft detection, ensuring immediate response and action.
+- **Frame-Based Analysis**: Processes individual frames extracted from videos for efficient computation and focused detection.
+- **Binary Classification**: Accurately identifies frames as either Theft or No Theft.
+- **Optimized CNN Architecture**: Utilizes convolutional layers to extract visual features and classify frames effectively.
+- **Preprocessing Workflow**: Includes frame extraction, resizing, normalization, and labeling to prepare data for training.
+- **Performance Evaluation**: Assesses accuracy, precision, recall, and F1-score to ensure reliable detection.
+- **Alert System**: Implements real-time email and SMS alerts to notify relevant stakeholders in case of theft detection, ensuring immediate response and action.
 
 
 # Dataset
@@ -20,10 +20,10 @@ The project uses the UCF Crime Dataset, which contains a diverse set of videos c
 
 # Preprocessing
 
--Frame Extraction: Videos were split into frames at regular intervals.
--Resizing: Frames were resized to match the input size required by the CNN.
--Labeling: Frames were labeled as Theft or No Theft based on their source video.
--Normalization: Pixel values were normalized to a [0, 1] range.
+-**Frame Extraction**: Videos were split into frames at regular intervals.
+-**Resizing**: Frames were resized to match the input size required by the CNN.
+-**Labeling**: Frames were labeled as Theft or No Theft based on their source video.
+-**Normalization**: Pixel values were normalized to a [0, 1] range.
 
 # Model Architecture
 
