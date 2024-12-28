@@ -33,5 +33,22 @@ The project uses the UCF Crime Dataset, which contains a diverse set of videos c
 - **Fully Connected Layer**: A fully connected layer for final binary classification output (Theft or No Theft).
 
 
+## Training
+
+- **Loss Function**: Cross-Entropy Loss with class weights to address class imbalance.
+- **Optimizer**: Adam optimizer with weight decay (`lr=0.001`, `weight_decay=0.0001`).
+- **Learning Rate Scheduler**: StepLR to reduce learning rate by a factor of 0.1 every 10 epochs.
+- **Epochs**: 40 (adjustable based on requirements).
+- **Batch Size**: 32 (assumed from `train_loader` and `test_loader` setup).
+
+
+## Evaluation Metrics
+
+- **Accuracy**: Training and testing accuracies tracked and plotted for all epochs.
+- **F1 Score**: Weighted F1 score to account for class imbalance.
+- **Confusion Matrix**: Normalized confusion matrix for detailed performance visualization.
+- **ROC-AUC Score**: Evaluates the model's ability to differentiate between classes.
+- **Precision-Recall Curve**: Tracks precision and recall trade-offs with an average precision score.
+
 
 
