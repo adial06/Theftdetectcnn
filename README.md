@@ -51,4 +51,14 @@ The project uses the UCF Crime Dataset, which contains a diverse set of videos c
 - **Precision-Recall Curve**: Tracks precision and recall trade-offs with an average precision score.
 
 
+# Outputs and Checkpoints
+
+- **Best Checkpoint**: Saves the best-performing model (`best_checkpoint.model`) based on test accuracy.
+- **Final Model**: Saves the final trained model (`final_model.pth`).
+- **Plots**:
+  - Training vs. Testing Accuracy.
+  - Normalized Confusion Matrix.
+  - ROC Curve.
+  - Precision-Recall Curve.
+
 
