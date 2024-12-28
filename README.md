@@ -69,4 +69,11 @@ The CNN achieved the following results on the test set:
 - **Recall**: 69%
 - **F1-Score**: 68%
 
+# Alerts
+
+### SMS Alert
+![SMS Alert](sms_alert.jpeg)
+
+### Email Alert
+![Email Alert](email_alert.png)
 
