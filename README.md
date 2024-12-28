@@ -27,10 +27,10 @@ The project uses the UCF Crime Dataset, which contains a diverse set of videos c
 
 # Model Architecture
 
--Convolutional Layers: Three convolutional layers (8, 16, 32 filters) with ReLU activation, batch normalization, and max-pooling for feature extraction.
--Pooling Layers: Max-pooling layers after each convolutional layer to reduce spatial dimensions.
--Dropout: A dropout layer with 60% rate to prevent overfitting during training.
--Fully Connected Layer: A fully connected layer for final binary classification output (Theft or No Theft).
+- **Convolutional Layers**: Three convolutional layers (8, 16, 32 filters) with ReLU activation, batch normalization, and max-pooling for feature extraction.
+- **Pooling Layers**: Max-pooling layers after each convolutional layer to reduce spatial dimensions.
+- **Dropout**: A dropout layer with 60% rate to prevent overfitting during training.
+- **Fully Connected Layer**: A fully connected layer for final binary classification output (Theft or No Theft).
 
 
 
