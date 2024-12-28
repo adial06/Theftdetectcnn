@@ -69,11 +69,12 @@ The CNN achieved the following results on the test set:
 - **Recall**: 69%
 - **F1-Score**: 68%
 
-# Alerts
+## Alerts
 
 ### SMS Alert
-![SMS Alert](sms_alert.jpeg)
+[View SMS Alert](https://github.com/adial06/Theftdetectcnn/blob/main/sms_alert.jpeg)
 
 ### Email Alert
-![Email Alert](email_alert.png)
+[View Email Alert](https://github.com/adial06/Theftdetectcnn/blob/main/email_alert.png)
+
 
