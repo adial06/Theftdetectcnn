@@ -20,10 +20,10 @@ The project uses the UCF Crime Dataset, which contains a diverse set of videos c
 
 # Preprocessing
 
--**Frame Extraction**: Videos were split into frames at regular intervals.
--**Resizing**: Frames were resized to match the input size required by the CNN.
--**Labeling**: Frames were labeled as Theft or No Theft based on their source video.
--**Normalization**: Pixel values were normalized to a [0, 1] range.
+- **Frame Extraction**: Videos were split into frames at regular intervals.
+- **Resizing**: Frames were resized to match the input size required by the CNN.
+- **Labeling**: Frames were labeled as Theft or No Theft based on their source video.
+- **Normalization**: Pixel values were normalized to a [0, 1] range.
 
 # Model Architecture
 
