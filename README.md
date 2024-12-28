@@ -38,7 +38,7 @@ The project uses the UCF Crime Dataset, which contains a diverse set of videos c
 - **Loss Function**: Cross-Entropy Loss with class weights to address class imbalance.
 - **Optimizer**: Adam optimizer with weight decay (`lr=0.001`, `weight_decay=0.0001`).
 - **Learning Rate Scheduler**: StepLR to reduce learning rate by a factor of 0.1 every 10 epochs.
-- **Epochs**: 40 (adjustable based on requirements).
+- **Epochs**: 30 (adjustable based on requirements).
 - **Batch Size**: 32 (assumed from `train_loader` and `test_loader` setup).
 
 
@@ -60,5 +60,13 @@ The project uses the UCF Crime Dataset, which contains a diverse set of videos c
   - Normalized Confusion Matrix.
   - ROC Curve.
   - Precision-Recall Curve.
+
+# Results
+
+The CNN achieved the following results on the test set:
+- **Accuracy**: 75%
+- **Precision**: 70%
+- **Recall**: 69%
+- **F1-Score**: 68%
 
 
